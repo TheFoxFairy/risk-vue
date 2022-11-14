@@ -18,6 +18,17 @@
 - **权限路由**：简易的路由配置、基于 mock 的动态路由能快速实现后端动态路由
 - **请求函数**：基于 axios 的完善的请求函数封装，提供 Promise 和 hooks 两种请求函数，加入请求结果数据转换的适配器
 
+- **新增解释**
+- **菜单栏路由路径为risk-vue-main/mock/model/route.ts下面**
+- **路由设置路径为risk-vue-main/src/router/modules下面**
+- **多用户选择登录数据在risk-vue-main/src/modules/auth下面**
+- **用户登录规则验证路径在risk-vue-main/src/utils/form/rule.ts文件中**
+- **risk-vue-main/src/utils文件夹中所有index.ts为引用文件**
+- **risk-vue-main/src/utils/storage文件夹中设置用户登录缓存信息**
+- **用户信息存放在risk-vue-main/mock/model/auth.ts下面，好像没有使用到MySQL数据库**
+- **risk-vue-main/mock/api/auth.ts第37行找到risk-vue-main/mock/model/auth.ts发现4个用户数据，应该就是没有连接数据库**
+- **risk-vue-main/src/layouts/common/GlobalHeader/components/SystemMessage.vue下面存放每次信息，死数据**
+
 ## 预览
 
 - [soybean-admin](https://soybean.pro/)
